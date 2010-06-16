@@ -30,6 +30,12 @@ namespace GITEST1
             Console.WriteLine(string.Format(
                 "And, my id is: {0}",
                 AppDomain.CurrentDomain.Id
+
+            /* now I am in branch_2 */
+            Console.WriteLine(string.Format(
+                "I think this is enough info for you: {0}",
+                System.Security.Principal.WindowsIdentity.GetCurrent().Name
+                ));
             ));
         }
     }
