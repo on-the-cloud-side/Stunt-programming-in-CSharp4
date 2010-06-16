@@ -17,8 +17,12 @@ namespace GITEST1
                 AppDomain.CurrentDomain.FriendlyName
             ));
             /*
-             * This is the comment I have added while in 'branch_1'
+             * Here I started additions while in 'branch_1'
              */
+            Console.WriteLine(string.Format(
+                "And, my id is: {0}",
+                AppDomain.CurrentDomain.Id
+            ));
         }
     }
 }
