@@ -1,9 +1,7 @@
 ﻿/*
- * $Revision: $
+ * 2010-06-16   dbj.org      Created
  */
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace GITEST1
@@ -16,6 +14,10 @@ namespace GITEST1
                 "Hi, my friendly name is: {0}",
                 AppDomain.CurrentDomain.FriendlyName
             ));
+            /* I am now in branch_4 
+             * In git please observe the POINT at which I have decided to create this branch
+             * which is 'way back' in time
+             */
         }
     }
 }
