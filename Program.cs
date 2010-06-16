@@ -16,6 +16,9 @@ namespace GITEST1
                 "Hi, my friendly name is: {0}",
                 AppDomain.CurrentDomain.FriendlyName
             ));
+            /*
+             * This is the comment I have added while in 'branch_1'
+             */
         }
     }
 }
