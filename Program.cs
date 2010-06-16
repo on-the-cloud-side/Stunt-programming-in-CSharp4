@@ -1,5 +1,10 @@
 ﻿/*
  * 2010-06-16   dbj.org      Created
+ *                           git: branch_2 came out as a 'winner'  and was merged 'into' this 
+ *                           branch which is 'master'
+ *                           Therefore! From this git point, we can proceed with 'master'
+ *                           in github.com network view, observe the graph, on commit a9e9904
+ *                           where we are now back to single 'thread of development'
  */
 using System;
 
