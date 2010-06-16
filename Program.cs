@@ -1,10 +1,7 @@
 ﻿/*
- * $Revision: $
+ * 2010-06-16   dbj.org      Created
  */
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace GITEST1
 {
@@ -20,6 +17,10 @@ namespace GITEST1
              * Here I know I am "back" to branch "master"
              */
             Console.WriteLine(string.Format(
+            /* I am now in branch_4 
+             * In git please observe the POINT at which I have decided to create this branch
+             * which is 'way back' in time
+             */
                 "My 'DomainManager' says the EntryAssembly full name is: {0}",
                 AppDomain.CurrentDomain.DomainManager.EntryAssembly.FullName
             ));
