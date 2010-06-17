@@ -12,15 +12,18 @@ namespace GITEST1
 {
     class Program
     {
+        static readonly System.Globalization.CultureInfo cc_ = System.Globalization.CultureInfo.CurrentCulture;
+
         static void Main(string[] args)
         {
-            Console.WriteLine( string.Format("Hi, my friendly name is: {0}",
+
+            Console.WriteLine(string.Format(cc_, resources.s01,
                 AppDomain.CurrentDomain.FriendlyName));
-            Console.WriteLine(string.Format("My 'DomainManager' says the EntryAssembly full name is: {0}",
+            Console.WriteLine(string.Format(cc_, resources.s02,
                 AppDomain.CurrentDomain.DomainManager.EntryAssembly.FullName));
-            Console.WriteLine(string.Format("And, my id is: {0}",
+            Console.WriteLine(string.Format(cc_, resources.s03 ,
                 AppDomain.CurrentDomain.Id));
-            Console.WriteLine(string.Format("I think this is enough info for you: {0}",
+            Console.WriteLine(string.Format( cc_, resources.s04 ,
                 System.Security.Principal.WindowsIdentity.GetCurrent().Name));
         }
     }
