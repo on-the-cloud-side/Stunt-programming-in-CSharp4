@@ -7,6 +7,7 @@
  *                           where we are now back to single 'thread of development'
  */
 using System;
+using dbj.mad ;
 
 namespace GITEST1
 {
@@ -16,15 +17,20 @@ namespace GITEST1
 
         static void Main(string[] args)
         {
+            about();
+            dbj.mad.Trivial.test();
+        }
 
-            Console.WriteLine(string.Format(cc_, resources.s01,
-                AppDomain.CurrentDomain.FriendlyName));
-            Console.WriteLine(string.Format(cc_, resources.s02,
-                AppDomain.CurrentDomain.DomainManager.EntryAssembly.FullName));
-            Console.WriteLine(string.Format(cc_, resources.s03 ,
-                AppDomain.CurrentDomain.Id));
-            Console.WriteLine(string.Format( cc_, resources.s04 ,
-                System.Security.Principal.WindowsIdentity.GetCurrent().Name));
+        static void about()
+        {
+// we need 'using dbj.mad' for 'format()' string extension
+            Console.WriteLine(resources.s01.format(AppDomain.CurrentDomain.FriendlyName));
+            Console.WriteLine(resources.s02.format(
+                AppDomain.CurrentDomain.DomainManager != null ? AppDomain.CurrentDomain.DomainManager.EntryAssembly.FullName : " oops, sorry, my DomainManager is absent."
+                )
+            );
+            Console.WriteLine(resources.s03.format(AppDomain.CurrentDomain.Id));
+            Console.WriteLine(resources.s04.format(System.Security.Principal.WindowsIdentity.GetCurrent().Name));
         }
     }
 }
