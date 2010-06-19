@@ -13,9 +13,9 @@ namespace GITEST1
 {
     class Program
     {
-        static readonly System.Globalization.CultureInfo cc_ = System.Globalization.CultureInfo.CurrentCulture;
+        // static readonly System.Globalization.CultureInfo cc_ = System.Globalization.CultureInfo.CurrentCulture;
 
-        static void Main(string[] args)
+        static void Main(/*string[] args*/)
         {
             about();
             dbj.mad.Trivial.test();

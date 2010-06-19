@@ -1,5 +1,5 @@
 ﻿/*
- 
+ (c) DBJ.ORG 2010
  */
 using System;
 
@@ -9,8 +9,8 @@ namespace dbj.mad
     {
          public delegate TResult TheMethod<T, TResult>(T argument, Func<T, TResult> operation);
 
-         static public object initial_state_ = null;
-         static public object state_ = null;
+         static object initial_state_ = null;
+         //static object state_ = null;
 
          static public 
              System.Collections.Generic.List<object> 

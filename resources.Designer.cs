@@ -7,7 +7,6 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-[assembly: System.Resources.NeutralResourcesLanguage("en")]
 
 namespace GITEST1 {
     using System;
