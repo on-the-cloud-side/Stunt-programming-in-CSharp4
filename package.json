@@ -1,0 +1,18 @@
+{
+    "name"    : "Stunt-programming-in-CSharp4",
+
+    "author"  : {
+        "name"  : "dbj",
+        "email" : "dbj@dbj.org",
+        "url"   : "http://dbj.org"
+    },
+  "description" : "Stunt-programming-in-CSharp4",
+    "version" : "1.0.0",
+
+    "main"    : "./Program.cs",
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DBJDBJ/Stunt-programming-in-CSharp4.git"
+    }
+}
