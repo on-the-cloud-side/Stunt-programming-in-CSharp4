@@ -9,7 +9,7 @@
 using System;
 using dbj.mad ;
 
-namespace GITEST1
+namespace Stunt_programming_in_CSharp4
 {
     class Program
     {
