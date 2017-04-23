@@ -1,12 +1,12 @@
 
 
-Stunt programming in C#4
+# Stunt programming in C#4
 ------------------------
 
-NOTES
+## NOTES
 
-1 Requires .NET 4.5  
-2 Built and tested with VS Express 2012 for Windows Desktop  
+### 1 Requires .NET 4.5  
+### 2 Built and tested with VS Express 2012 for Windows Desktop  
   
   
   
