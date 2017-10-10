@@ -12,10 +12,10 @@ From C2 wiki
 This code is example on how to NOT create code. C# or any other language. Focus on requirements and do the design first. 
 Just then implement and without trying to produce snazzy code that is maiking your program risky and error prone.
 
-## NOTES
+### NOTES
 
-### 1 Requires .NET 4.5  
-### 2 Built and tested with VS Express 2012 for Windows Desktop  
+#### 1 Requires .NET 4.5  
+#### 2 Built and tested with VS Express 2012 for Windows Desktop. I assume VS2017 will happily do the same.
   
   
   
