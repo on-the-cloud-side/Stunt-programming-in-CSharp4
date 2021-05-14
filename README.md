@@ -20,5 +20,7 @@ Just then implement and without trying to produce snazzy code that is rendering 
   
   
 ---------------------------------------------------------------------  
-### &copy; 2017 [![dbj();](http://dbj.org/wp-content/uploads/2015/12/cropped-dbj-icon-e1486129719897.jpg)](http://www.dbj.org "dbj")  
+### &copy; 2017 - 2021 [![dbj();](http://dbj.org/wp-content/uploads/2015/12/cropped-dbj-icon-e1486129719897.jpg)](http://www.dbj.org "dbj")  
+
+https://dbj.org/license_dbj/
 
